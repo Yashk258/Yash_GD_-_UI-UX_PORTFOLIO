@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Yash Kumar — Graphic Designer & UI/UX Designer</title>
+  <meta name="description" content="Yash Kumar is a graphic designer and UI/UX designer. Brand identities, event branding, posters and product interfaces.">
+  <meta property="og:title" content="Yash Kumar — Graphic Designer & UI/UX Designer">
+  <meta property="og:description" content="Brand identities, event branding, posters and product interfaces.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="nav">
+    <div class="w">
+      <a href="#top" class="logo">Yash Kumar</a>
+
+      <div class="r" id="r">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a href="#contact" class="btn f">Let's work together</a>
+      <button class="mb" id="mb">Menu</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <!-- decorative "pinned" work samples (replace colors with real images later) -->
+    <div class="pin a" data-s=".05"  style="right:7%;  top:15%; width:19vw; height:25vw; background:#D2381A; transform:rotate(5deg)"><span>poster</span></div>
+    <div class="pin b" data-s="-.04" style="right:26%; top:12%; width:17vw; height:11vw; background:#17306b; transform:rotate(-6deg)"><span>mobile UI</span></div>
+    <div class="pin c" data-s=".07"  style="right:4%;  top:50%; width:15vw; height:7vw;  background:#E89A1C; transform:rotate(-3deg)"><span>wristband</span></div>
+    <div class="pin d" data-s="-.05" style="right:24%; top:42%; width:12vw; height:12vw; background:#2f5d46; transform:rotate(8deg)"><span>logo</span></div>
+
+    <div class="w" style="width:100%">
+      <p class="tag">
+        Graphic designer &amp; UI/UX designer making work people
+        <b>remember
+          <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+            <path d="M20 38 C 5 12, 70 4, 130 6 C 190 8, 202 40, 150 52 C 90 62, 12 54, 18 30 C 22 18, 60 10, 90 10"/>
+          </svg>
+        </b>.
+      </p>
+
+      <div class="cta">
+        <a href="#work" class="btn f">View selected work</a>
+        <a href="#contact" class="btn">Let's work together</a>
+        <a
+  href="resume.pdf"
+  class="btn"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume ↗
+</a>
+      </div>
+
+      <!-- letters are generated in script.js so each one can react on hover -->
+      <h1 aria-label="Yash Kumar" id="nm"></h1>
+    </div>
+  </header>
+
+  <!-- TICKER -->
+  <div class="tk" aria-hidden="true">
+    <div id="tk"></div>
+  </div>
+
+  <!-- SELECTED WORK (cards are generated in script.js) -->
+  <section id="work" style="padding-bottom:0">
+    <div class="w wh">
+      <h2>Selected<br>work</h2>
+      <p>Real projects, brands and interfaces. Click any one to read how it came together.</p>
+    </div>
+    <div id="stack"></div>
+  </section>
+
+  <!-- GRAPHIC ARCHIVE (drag sideways) -->
+  <div class="arc">
+    <div class="w wh" style="margin-bottom:0">
+      <h2 class="h2">Graphic<br>archive</h2>
+      <p style="margin:0; color:var(--mute); max-width:30ch">Posters, social, ads and campaign graphics. Drag sideways.</p>
+    </div>
+    <div class="dr" id="dr"></div>
+  </div>
+
+  <!-- ABOUT + EXPERIENCE -->
+  <section class="sec" id="about">
+    <div class="w ab">
+
+      <div class="pt rv" id="pt">Your photo goes here</div>
+
+      <div>
+        <p class="big rv">
+          I like fixing things that look off or feel confusing.
+          Sometimes that's a poster, sometimes a <mark>whole product</mark>.
+        </p>
+
+        <p class="rv" style="max-width:56ch; color:var(--mute)">
+          I started with graphic design, then moved into UI/UX because I wanted to design things
+          people actually use. I also know React and Tailwind, so I can talk to developers and hand
+          off work that's realistic to build. Founding Tamasha Entertainment taught me to run
+          creative work end to end, from the idea to the poster on the wall.
+        </p>
+
+        <div id="experience" style="margin-top:48px">
+          <div class="job rv">
+            <small>Tamasha Entertainment</small>
+            <div>
+              <h4>Founder, Creative &amp; Marketing Lead</h4>
+              <p>Creative direction, event branding, campaigns, visual identity, sponsor creatives, promotion.</p>
+            </div>
+          </div>
+
+          <div class="job rv">
+            <small>Euphem Fashion</small>
+            <div>
+              <h4>Graphic Designer</h4>
+              <p>Social media creatives, banners, product mockups.</p>
+            </div>
+          </div>
+
+          <div class="job rv">
+            <small>Veritance Consultancy Plus Services</small>
+            <div>
+              <h4>Social Media &amp; Design Intern</h4>
+              <p>Social media, creative design, branding support, marketing visuals.</p>
+            </div>
+          </div>
+
+          <div class="job rv">
+            <small>The Blunt</small>
+            <div>
+              <h4>Design Intern</h4>
+              <p>Creative design, visual content, social media.</p>
+            </div>
+          </div>
+
+          <div class="job rv">
+            <small>Education</small>
+            <div>
+              <h4 class="todo" style="font-weight:600">[Degree, institution, years]</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS + PROCESS -->
+  <section class="sec" id="skills" style="padding-top:0">
+    <div class="w">
+      <h2 class="h2">What I<br>work with</h2>
+
+      <div class="sk rv">
+        <div>
+          <h3>Design</h3>
+          <ul>
+            <li>Graphic design</li>
+            <li>UI/UX</li>
+            <li>Brand identity</li>
+            <li>Typography</li>
+            <li>Art direction</li>
+            <li>Social media design</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Canva</li>
+            <li>Framer</li>
+            <li>React + Tailwind</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Product</h3>
+          <ul>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Design systems</li>
+            <li>User flows</li>
+            <li>Responsive design</li>
+            <li>Interaction design</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pr rv">
+        <div><b>01</b><h3>Discover</h3><p>Understand the problem.</p></div>
+        <div><b>02</b><h3>Define</h3><p>Pin down the challenge.</p></div>
+        <div><b>03</b><h3>Explore</h3><p>References and rough concepts.</p></div>
+        <div><b>04</b><h3>Design</h3><p>Build it, refine it.</p></div>
+        <div><b>05</b><h3>Deliver</h3><p>Clean, ready-to-use files.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="ct" id="contact">
+    <div class="w">
+      <h2>Got a brand, product or idea that needs better design?</h2>
+      <p class="closing">Let's make something worth remembering.</p>
+
+      <a class="btn f" id="mail" href="#">Start a conversation →</a>
+      <a
+  class="btn"
+  href="resume.pdf"
+  download="Yash-Kumar-Resume.pdf"
+>
+  Download resume
+</a>
+
+      <div class="soc" id="soc"></div>
+      <div class="ft">© 2026 Yash Kumar</div>
+    </div>
+  </section>
+
+  <!-- cursor label + case-study overlay (filled by script.js) -->
+  <div id="cur"></div>
+  <div id="cs" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
