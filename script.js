@@ -5,7 +5,7 @@
 const SITE = {
   email: "yashkumar258a@gmail.com",
 
-  resume: "#",
+  resume: "resume.pdf",
 
   // Profile photo
   portrait: "images/yash.jpg",
